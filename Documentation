@@ -1,0 +1,65 @@
+
+Keyboard
+
+press(keys, optional time between press's)
+
+press's and relases key(s) with an optional time between inputs with a default .05 pause.
+
+example 
+
+press('w','q','p', .5)
+
+>wqp
+
+def pressAndHold(keys)
+
+Press's key(s) but does not release(works best for 3d applications).
+
+example
+
+pressAndHold('w','q','p', .5)
+
+notepad
+
+>wqp
+
+3d application
+
+>wqppppppppppppppppppp...
+
+pressHoldRelease(keys)
+
+Press's key(s) and releases(works best for 3d appliactions).
+
+example
+
+pressHoldRelease('w','q','p', .5)
+
+>wqp
+
+release(keys)
+
+releases key(s)
+
+example
+
+release('w','q','p', .5)
+
+>
+
+typer(string or char, optional time between press's)
+
+example
+
+typer(string/char, optional time between press's)
+
+writes sentenaces.
+
+example
+
+typer(The quick brown fox jumps over the lazy dog., 0.05)
+
+>The quick brown fox jumps over the lazy dog.
+
+Mouse
+
